@@ -31,7 +31,6 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onNumber"
             android:text="2"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -44,7 +43,6 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onOperator"
             android:text="3"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -57,7 +55,6 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onOperator"
             android:text="4"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -71,7 +68,6 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onNumber"
             android:text="5"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -84,7 +80,6 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onNumber"
             android:text="6"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -97,7 +92,6 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onNumber"
             android:text="7"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -110,7 +104,6 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onOperator"
             android:text="8"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -124,7 +117,6 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onNumber"
             android:text="9"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -137,7 +129,6 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onNumber"
             android:text="10"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -150,7 +141,6 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onNumber"
             android:text="11"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -163,7 +153,6 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onOperator"
             android:text="12"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -177,7 +166,6 @@
             android:layout_column="0"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onNumber"
             android:text="13"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -190,7 +178,6 @@
             android:layout_column="1"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onNumber"
             android:text="14"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -203,7 +190,6 @@
             android:layout_column="2"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onNumber"
             android:text="15"
             android:textColor="@color/white"
             android:textSize="25dp" />
@@ -216,7 +202,6 @@
             android:layout_column="3"
             android:layout_columnWeight="1"
             android:backgroundTint="@color/dark_green"
-            android:onClick="onOperator"
             android:text="16"
             android:textColor="@color/white"
             android:textSize="25dp" />
