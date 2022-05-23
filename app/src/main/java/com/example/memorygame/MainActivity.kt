@@ -1,6 +1,5 @@
 package com.example.memorygame
 
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -54,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                     }
                     click++
                 } else if (button[i].text != "cardback"){
-                    button[i].setBackgroundColor(Color.rgb(120, 147, 138))
+                    button[i].setBackgroundResource(back)
                     button[i].text = "cardback"
                     click--
                 }
