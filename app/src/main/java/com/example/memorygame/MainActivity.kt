@@ -3,9 +3,12 @@ package com.example.memorygame
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
 import com.example.memorygame.R.drawable.*
 
 class MainActivity : AppCompatActivity() {
+    var text: CharSequence? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -39,6 +42,8 @@ class MainActivity : AppCompatActivity() {
         var click = 0
         var turn = false
         var lastClick = -1
+        var numberOfPairs = 0
+
         numbers.shuffle()
         for (i in 0..11){
             //to set the card back
@@ -65,7 +70,12 @@ class MainActivity : AppCompatActivity() {
                         button[lastClick].isClickable = false
                         turn = false
                         click = 0
+                        ++numberOfPairs
                     }
+                } else if (numberOfPairs == 5) {
+                    text = "Congratulations 🎉🎉"
+                    val toast = Toast.makeText(applicationContext, text, Toast.LENGTH_SHORT)
+                    toast.show()
                 } else if (click == 0) {
                     turn = false
                 }
